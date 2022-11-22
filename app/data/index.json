@@ -4,13 +4,13 @@
             "index": 0,
             "bookName": "Balkanda",
             "bookThumbnail": "https://raw.githubusercontent.com/Rudra1510/RamayanData/main/data/Rectangle-14.png",
-            "bookLocation": "https://raw.githubusercontent.com/Rudra1510/RamayanData/main/data/ramayan.json"
+            "bookLocation": "https://raw.githubusercontent.com/Rudra1510/RamayanData/main/app/data/ramayan.json"
         },
         {
             "index": 1,
             "bookName": "Balkanda",
             "bookThumbnail": "https://raw.githubusercontent.com/Rudra1510/RamayanData/main/data/Rectangle-14.png",
-            "bookLocation": "https://raw.githubusercontent.com/Rudra1510/RamayanData/main/data/ramayan.json"
+            "bookLocation": "https://raw.githubusercontent.com/Rudra1510/RamayanData/main/app/data/ramayan.json"
         }
     ]
 }
