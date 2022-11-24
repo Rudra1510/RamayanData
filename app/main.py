@@ -14,6 +14,8 @@ def File(Path):
     except Exception as e:
         return f"<01000101><01010010><01010010><01001111><01010010> : {type(e).__name__}"
 
+if __name__=="__main__":
+    app.run(host="0.0.0.0",debug=False)
 
 # "/index.json"
 # "/ramayan.json"
