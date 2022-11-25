@@ -35,6 +35,12 @@
             "bookName": "Yuddha Kanda",
             "bookThumbnail": "https://ramayan-api.onrender.com/app/data/assets/thumbs/6.png",
             "bookLocation": "https://ramayan-api.onrender.com/app/data/assets/books/6.json"
+        },
+        {
+            "index": 6,
+            "bookName": "Uttara Kanda",
+            "bookThumbnail": "https://ramayan-api.onrender.com/app/data/assets/thumbs/7.png",
+            "bookLocation": "https://ramayan-api.onrender.com/app/data/assets/books/7.json"
         }
         
     ],
