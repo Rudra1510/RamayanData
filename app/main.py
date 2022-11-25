@@ -10,13 +10,10 @@ def Home():
 @app.route("/<path:Path>")
 def File(Path):
     try:
-        return flask.send_from_directory("app/data", Path)
+        return flask.send_from_directory("", Path)
     except Exception as e:
-        return f"<01000101><01010010><01010010><01001111><01010010> : {type(e).__name__}"
+        return f"{type(e).__name__}"
 
+    
 if __name__=="__main__":
     app.run()
-
-# "/index.json"
-# "/ramayan.json"
-#app.run(host="0.0.0.0", port=8080)h
