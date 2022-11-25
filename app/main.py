@@ -10,7 +10,7 @@ def Home():
 @app.route("/<path:Path>")
 def File(Path):
     try:
-        return flask.send_from_directory("data", Path)
+        return flask.send_from_directory("app/data", Path)
     except Exception as e:
         return f"<01000101><01010010><01010010><01001111><01010010> : {type(e).__name__}"
 
