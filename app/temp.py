@@ -1,7 +1,0 @@
-structure = {
-
-    "content":[
-        
-    ]
-
-}
