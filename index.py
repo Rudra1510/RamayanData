@@ -33,4 +33,4 @@ def File(Path):
 
     
 if __name__=="__main__":
-    app.run(port=9596)
+    app.run()
