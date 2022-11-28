@@ -1,0 +1,53 @@
+{
+    "ver":1,
+    
+    "books": [
+        {
+
+            "bookName": "Bala Kanda",
+            "bookThumbnail": "https://venv-blond.vercel.app/data/assets/thumbs/1.png",
+            "bookLocation": "https://venv-blond.vercel.app/data/assets/books/1.json",
+            "index":{
+                "chapterTitle":["1","2","3"]
+            }
+        },
+        {
+
+            "bookName": "Ayodhya Kanda",
+            "bookThumbnail": "https://venv-blond.vercel.app/data/assets/thumbs/2.png",
+            "bookLocation": "https://venv-blond.vercel.app/data/assets/books/2.json"
+        },
+        {
+
+            "bookName": "Aranya Kanda",
+            "bookThumbnail": "https://venv-blond.vercel.app/data/assets/thumbs/3.png",
+            "bookLocation": "https://venv-blond.vercel.app/data/assets/books/3.json"
+        },
+        {
+
+            "bookName": "Kishkindha Kanda",
+            "bookThumbnail": "https://venv-blond.vercel.app/data/assets/thumbs/4.png",
+            "bookLocation": "https://venv-blond.vercel.app/data/assets/books/4.json"
+        },
+        {
+
+            "bookName": "Sundara Kanda",
+            "bookThumbnail": "https://venv-blond.vercel.app/data/assets/thumbs/5.png",
+            "bookLocation": "https://venv-blond.vercel.app/data/assets/books/5.json"
+        },
+        {
+
+            "bookName": "Yuddha Kanda",
+            "bookThumbnail": "https://venv-blond.vercel.app/data/assets/thumbs/6.png",
+            "bookLocation": "https://venv-blond.vercel.app/data/assets/books/6.json"
+        },
+        {
+
+            "bookName": "Uttara Kanda",
+            "bookThumbnail": "https://venv-blond.vercel.app/data/assets/thumbs/7.png",
+            "bookLocation": "https://venv-blond.vercel.app/data/assets/books/7.json"
+        }
+        
+    ],
+    "QOTD":"Know Rama to be Dasaratha. Look upon Seetha the daughter of Janaka as myself. Consider the forest as Ayodhya and depart happily, my son! ||2-40-9||"
+}
