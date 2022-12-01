@@ -41,9 +41,10 @@ def Main():
     
 @app.route("/chapter/<path:Bkno>/<path:Chno>/<path:Lang>")
 def chapter(Bkno,Chno,Lang):
-    Chno = int(Chno) - 1
+    Chno = int(Chno)
+    Bkno = int(Bkno)
     
-    with open(f"data/assets/books/{Bkno}.json","r") as f:
+    with open(f"data/assets/books/{Bkno+1}.json","r") as f:
         d = json.load(f)
 
     if Lang == "all":
@@ -76,7 +77,7 @@ def index():
         
     for i in range(1,len(d["books"])+1):
 
-        d["books"][i-1]["index"] = {}
+        d["books"][i-1]["subIndex"] = []
 
         with open(f"data/assets/books/{str(i)}.json","r") as f:
             b = json.load(f)
@@ -87,9 +88,15 @@ def index():
                 for k in b["content"][j]["content"]:
                     shlokaTitles.append(k["title"])
 
-                d["books"][i-1]["index"][b["content"][j]["mainTitle"]] = shlokaTitles
+                x= {
+                        "chapterTitle":[b["content"][j]["mainTitle"]][0], 
+                        "chapterIndex":shlokaTitles
+                        }
 
-    with open("temp.json","w+") as f:
+                # d["books"][i-1]["index"][b["content"][j]["mainTitle"]] = shlokaTitles
+                d["books"][i-1]["subIndex"].append(x)
+
+    with open("data/assets/index.json","w+") as f:
         json.dump(d,f,indent=4)
 
 
