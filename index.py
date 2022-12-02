@@ -30,6 +30,10 @@ def File(Path):
         return flask.send_from_directory("", Path)
     except Exception as e:
         return f"{type(e).__name__}"
+
+@app.route("/index")
+def Index():
+    return flask.send_from_directory("","data/assets/index.json")
     
 
 @app.route("/main")
@@ -67,7 +71,7 @@ def chapter(Bkno,Chno,Lang):
         return OutputJSON
     
 
-@app.route("/index")
+@app.route("/indexx")
 def index():
 
     with open("data/assets/index.json","r") as f:
