@@ -3,8 +3,8 @@
     "books": [
         {
             "bookName": "Bala Kanda",
-            "bookThumbnail": "https://ramayana.vercel.app/data/assets/thumbs/1.png",
-            "bookLocation": "https://ramayana.vercel.app/data/assets/books/1.json",
+            "bookThumbnail": "https://www.therudrabarot.tk/ramayan-api/data/assets/thumbs/1.png",
+            "bookLocation": "https://www.therudrabarot.tk/ramayan-api/data/assets/books/1.json",
             "subIndex": [
                 {
                     "chapterTitle": "Chapter Title 1",
@@ -2564,8 +2564,8 @@
         },
         {
             "bookName": "Ayodhya Kanda",
-            "bookThumbnail": "https://ramayana.vercel.app/data/assets/thumbs/2.png",
-            "bookLocation": "https://ramayana.vercel.app/data/assets/books/2.json",
+            "bookThumbnail": "https://www.therudrabarot.tk/ramayan-api/data/assets/thumbs/2.png",
+            "bookLocation": "https://www.therudrabarot.tk/ramayan-api/data/assets/books/2.json",
             "subIndex": [
                 {
                     "chapterTitle": "Narada Briefs Valmiki About Rama & Ramayana In A Nutshell",
@@ -2727,8 +2727,8 @@
         },
         {
             "bookName": "Aranya Kanda",
-            "bookThumbnail": "https://ramayana.vercel.app/data/assets/thumbs/3.png",
-            "bookLocation": "https://ramayana.vercel.app/data/assets/books/3.json",
+            "bookThumbnail": "https://www.therudrabarot.tk/ramayan-api/data/assets/thumbs/3.png",
+            "bookLocation": "https://www.therudrabarot.tk/ramayan-api/data/assets/books/3.json",
             "subIndex": [
                 {
                     "chapterTitle": "Narada Briefs Valmiki About Rama & Ramayana In A Nutshell",
@@ -2890,8 +2890,8 @@
         },
         {
             "bookName": "Kishkindha Kanda",
-            "bookThumbnail": "https://ramayana.vercel.app/data/assets/thumbs/4.png",
-            "bookLocation": "https://ramayana.vercel.app/data/assets/books/4.json",
+            "bookThumbnail": "https://www.therudrabarot.tk/ramayan-api/data/assets/thumbs/4.png",
+            "bookLocation": "https://www.therudrabarot.tk/ramayan-api/data/assets/books/4.json",
             "subIndex": [
                 {
                     "chapterTitle": "Narada Briefs Valmiki About Rama & Ramayana In A Nutshell",
@@ -3053,8 +3053,8 @@
         },
         {
             "bookName": "Sundara Kanda",
-            "bookThumbnail": "https://ramayana.vercel.app/data/assets/thumbs/5.png",
-            "bookLocation": "https://ramayana.vercel.app/data/assets/books/5.json",
+            "bookThumbnail": "https://www.therudrabarot.tk/ramayan-api/data/assets/thumbs/5.png",
+            "bookLocation": "https://www.therudrabarot.tk/ramayan-api/data/assets/books/5.json",
             "subIndex": [
                 {
                     "chapterTitle": "Narada Briefs Valmiki About Rama & Ramayana In A Nutshell",
@@ -3216,8 +3216,8 @@
         },
         {
             "bookName": "Yuddha Kanda",
-            "bookThumbnail": "https://ramayana.vercel.app/data/assets/thumbs/6.png",
-            "bookLocation": "https://ramayana.vercel.app/data/assets/books/6.json",
+            "bookThumbnail": "https://www.therudrabarot.tk/ramayan-api/data/assets/thumbs/6.png",
+            "bookLocation": "https://www.therudrabarot.tk/ramayan-api/data/assets/books/6.json",
             "subIndex": [
                 {
                     "chapterTitle": "Narada Briefs Valmiki About Rama & Ramayana In A Nutshell",
@@ -3379,8 +3379,8 @@
         },
         {
             "bookName": "Uttara Kanda",
-            "bookThumbnail": "https://ramayana.vercel.app/data/assets/thumbs/7.png",
-            "bookLocation": "https://ramayana.vercel.app/data/assets/books/7.json",
+            "bookThumbnail": "https://www.therudrabarot.tk/ramayan-api/data/assets/thumbs/7.png",
+            "bookLocation": "https://www.therudrabarot.tk/ramayan-api/data/assets/books/7.json",
             "subIndex": [
                 {
                     "chapterTitle": "Will be available shortly",

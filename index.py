@@ -13,37 +13,32 @@ def md5(fname):
 
 @app.route("/")
 def Home():
-    return "<01000110><01110010><01101001><01100100><01100001><01111001>"
+    return "01001001 00100000 01101100 01101111 01110110 01100101 00100000 01111001 01101111 01110101 00100000 01100100 01101111 01100010 01110101"
 
 
-@app.route("/indexhash")
-def indexHash():
-    return md5("data/assets/books/1.json")
+# @app.route("/indexhash")
+# def indexHash():
+#     return md5("data/assets/books/1.json")
     
 # @app.route("increaseindex")
 # def 
 
 
-@app.route("/<path:Path>")
+@app.route("/ramayan-api/<path:Path>")
 def File(Path):
     try:
         return flask.send_from_directory("", Path)
     except Exception as e:
         return f"{type(e).__name__}"
 
-@app.route("/index")
+@app.route("/ramayan-api/index")
 def Index():
-    return flask.send_from_directory("","data/assets/index.json")
-    
-
-@app.route("/main")
-def Main():
     try:
         return flask.send_from_directory("","data/assets/index.json")
     except Exception as e:
         return f"{type(e).__name__}"
     
-@app.route("/chapter/<path:Bkno>/<path:Chno>/<path:Lang>")
+@app.route("/ramayan-api/chapter/<path:Bkno>/<path:Chno>/<path:Lang>")
 def chapter(Bkno,Chno,Lang):
     Chno = int(Chno)
     Bkno = int(Bkno)
@@ -71,47 +66,47 @@ def chapter(Bkno,Chno,Lang):
         return OutputJSON
     
 
-@app.route("/indexx")
-def index():
+# @app.route("/indexx")
+# def index():
 
-    with open("data/assets/index.json","r") as f:
-        d = json.load(f)
+#     with open("data/assets/index.json","r") as f:
+#         d = json.load(f)
 
     
         
-    for i in range(1,len(d["books"])+1):
+#     for i in range(1,len(d["books"])+1):
 
-        d["books"][i-1]["subIndex"] = []
+#         d["books"][i-1]["subIndex"] = []
 
-        with open(f"data/assets/books/{str(i)}.json","r") as f:
-            b = json.load(f)
+#         with open(f"data/assets/books/{str(i)}.json","r") as f:
+#             b = json.load(f)
 
-            for j in range(len(b["content"])):
+#             for j in range(len(b["content"])):
 
-                shlokaTitles = []
-                for k in b["content"][j]["content"]:
-                    shlokaTitles.append(k["title"])
+#                 shlokaTitles = []
+#                 for k in b["content"][j]["content"]:
+#                     shlokaTitles.append(k["title"])
 
-                x= {
-                        "chapterTitle":[b["content"][j]["mainTitle"]][0], 
-                        "chapterIndex":shlokaTitles
-                        }
+#                 x= {
+#                         "chapterTitle":[b["content"][j]["mainTitle"]][0], 
+#                         "chapterIndex":shlokaTitles
+#                         }
 
-                # d["books"][i-1]["index"][b["content"][j]["mainTitle"]] = shlokaTitles
-                d["books"][i-1]["subIndex"].append(x)
+#                 # d["books"][i-1]["index"][b["content"][j]["mainTitle"]] = shlokaTitles
+#                 d["books"][i-1]["subIndex"].append(x)
 
-    with open("data/assets/index.json","w+") as f:
-        json.dump(d,f,indent=4)
+#     with open("data/assets/index.json","w+") as f:
+#         json.dump(d,f,indent=4)
 
 
         
 
-        # i["index"] = 0
+#         # i["index"] = 0
 
     
     
 
-    return "hey"
+#     return "hey"
 
     
 if __name__=="__main__":
